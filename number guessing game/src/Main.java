@@ -35,7 +35,7 @@ public class Main {
             }
 
 
-        } while (num>=min && num<=max);
+        } while (num>=min && num<=max && num != randomNum);
 
         scanner.close();
     }
